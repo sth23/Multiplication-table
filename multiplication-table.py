@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Sean
-Credit: Tutorial, W3 Schools
+Credit: Tutorial, W3 Schools, Geeks for Geeks, Stack Overflow
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -30,9 +30,10 @@ table = list(range(0,width))
 for i in range(0,width):
     table[i] = list(range(0,height))
     for j in range(0,height):
-        table[i][j] = (i+1)*(j+1)
+        print("{:>3} ".format((i+1)*(j+1)), end = " ")
+    print("")
+        
+        
 
-for i in table:
-    [print(table[i][x] + " ") for x in table[i]]
     
         
