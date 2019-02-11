@@ -32,4 +32,7 @@ for i in range(0,width):
     for j in range(0,height):
         table[i][j] = (i+1)*(j+1)
 
-print(table)
+for i in table:
+    [print(table[i][x] + " ") for x in table[i]]
+    
+        
