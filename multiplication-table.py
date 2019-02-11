@@ -25,6 +25,8 @@ Height of multiplication table: 8
 width = int(input("Width of multiplication table: "))
 height = int(input("Height of multiplication table: "))
 
+table = [][]
+
 for i in range(1, width+1):
     for j in range(1, height+1):
         table[i-1][j-1] = i*j
